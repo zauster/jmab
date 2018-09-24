@@ -20,9 +20,12 @@ The project archive can be imported directly into the Eclipse IDE as an existing
 
 ## Running the examples from the Eclipse IDE
 
-The distribution archive can be imported directly into the Eclipse IDE by using the File/Import menu item. Create a launch configuration in the benchmark project with the main class benchmark.Main and specify which configuration file you want to use by setting the system property jabm.config using the JVM argument -D , for example
+The distribution archive can be imported directly into the Eclipse IDE by using the File/Import menu item. Create a launch configuration in the benchmark project with the main class benchmark.Main and specify which configuration file you want to use by setting the system property jabm.config using the JVM argument `-D`, for example
 
+```
 -Djabm.config=model/mainBaseline.xml
+```
+
 
 ## Documentation
 
