@@ -39,9 +39,9 @@ public class MicroSimEvent extends SimEvent{
 		super();
 	}
 	/**
-	 * @param variableName
+	 * @param variableId variableName
 	 * @param time
-	 * @param variableValue
+	 * @param varValues variableValue
 	 */
 	public MicroSimEvent(int time, Map<Long,Double> varValues, int variableId) {
 		super();

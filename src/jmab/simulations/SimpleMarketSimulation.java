@@ -51,16 +51,20 @@ public class SimpleMarketSimulation implements
 	protected MarketPopulation population;
 	
 	
-	/**
-	 * @param simulationController
-	 * @param population
-	 */
+
 	public SimpleMarketSimulation (){
 		this.buyersId = new int[0];
 		this.sellersId = new int[0];
 	}
-	
-	public SimpleMarketSimulation(SimulationController simulationController,MacroSimulation simulation, 
+
+	/**
+	 * @param simulationController
+	 * @param simulation
+	 * @param sellersId
+	 * @param buyersId
+	 * @param transaction
+	 */
+	public SimpleMarketSimulation(SimulationController simulationController, MacroSimulation simulation,
 			int[] sellersId, int[] buyersId, Mechanism transaction) {
 		this.scheduler=simulationController;
 		this.simulation=simulation;

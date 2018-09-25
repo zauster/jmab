@@ -109,7 +109,7 @@ public class DynamicTradeOffFinance extends AbstractStrategy implements
 	}
 
 	/**
-	 * @param thresholdRefVariable the thresholdRefVariable to set
+	 * @param threshold the threshold to set
 	 */
 	public void setThreshold(double threshold) {
 		this.threshold = threshold;

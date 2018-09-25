@@ -88,9 +88,9 @@ public class SelectionRandomRobinBuyerMixer extends AbstractMarketMixer
 	}
 
 	/**
-	 * @param buyers
-	 * @param sellersList
-	 * @param simulation
+	 * @param buyers buyerList
+	 * @param sellers sellersList
+	 * @param model simulation
 	 */
 	private void invokeInteractions(AgentList buyers, AgentList sellers,
 			SimulationController model) {

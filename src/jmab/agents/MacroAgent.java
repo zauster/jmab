@@ -98,7 +98,7 @@ public interface MacroAgent extends Agent, EventListener{
 	
 	/**
 	 * Populates the characteristics of the agent using the byte array content.
-	 * @param the byte array
+	 * @param content the byte array
 	 */
 	public void populateCharacteristics(byte[] content, MacroPopulation pop);
 	

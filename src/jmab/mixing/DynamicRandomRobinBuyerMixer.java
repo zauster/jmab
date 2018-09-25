@@ -33,10 +33,11 @@ public class DynamicRandomRobinBuyerMixer extends AbstractMarketMixer implements
 
 	protected RandomEngine prng;
 	
+	public DynamicRandomRobinBuyerMixer(){}
+
 	/**
 	 * @param prng
 	 */
-	public DynamicRandomRobinBuyerMixer(){}
 	public DynamicRandomRobinBuyerMixer(RandomEngine prng) {
 		super();
 		this.prng = prng;

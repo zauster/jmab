@@ -34,10 +34,12 @@ public class BrochureSelectionRandomRobinBuyerMixer extends AbstractTwoStepMarke
 	protected RandomEngine prng;
 	protected int nbSellers;
 	
+
+	public BrochureSelectionRandomRobinBuyerMixer(){}
+
 	/**
 	 * @param prng
 	 */
-	public BrochureSelectionRandomRobinBuyerMixer(){}
 	public BrochureSelectionRandomRobinBuyerMixer(RandomEngine prng) {
 		super();
 		this.prng = prng;

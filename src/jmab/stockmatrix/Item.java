@@ -42,7 +42,7 @@ public interface Item {
 	public double getQuantity();
 	
 	/**
-	 * @param value the value of the item
+	 * @param quantity the quantity of the item
 	 */
 	public void setQuantity(double quantity);
 	

@@ -43,7 +43,7 @@ public abstract class AbstractConstantPopulationHandler extends AbstractPopulati
 
 	/**
 	 * @param agent
-	 * @return
+	 * @return the created agent
 	 */
 	public abstract Agent createAgent(Agent agent, int populationId);
 

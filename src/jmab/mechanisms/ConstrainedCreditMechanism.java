@@ -33,12 +33,12 @@ import jmab.stockmatrix.Loan;
 public class ConstrainedCreditMechanism extends AbstractCreditMechanism implements
 Mechanism {
 
-	/**
-	 * @param scheduler
-	 * @param market
-	 */
+
 	public ConstrainedCreditMechanism(){}
 
+	/**
+	 * @param market
+	 */
 	public ConstrainedCreditMechanism(MarketSimulation market) {
 		super(market);
 	}

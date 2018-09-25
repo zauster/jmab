@@ -126,7 +126,7 @@ public class AdaptiveInterestRate extends AbstractStrategy implements
 
 
 	/**
-	 * @param mkId the mkId to set
+	 * @param mktId the mktId to set
 	 */
 	public void setMktId(int mktId) {
 		this.mktId = mktId;

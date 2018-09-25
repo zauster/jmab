@@ -33,7 +33,7 @@ public class Equity extends AbstractItem implements Item {
 
 	/**
 	 * @param value the value of the equities
-	 * @param the quantity of equities held
+	 * @param quantity the quantity of equities held
 	 * @param assetHolder the holder of equities
 	 * @param liabilityHolder the emitter of equities
 	 * @param price the price of the equity

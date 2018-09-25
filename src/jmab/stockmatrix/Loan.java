@@ -46,8 +46,9 @@ public class Loan extends AbstractItem implements Item, InterestBearingItem {
 	 * @param assetHolder the borrower
 	 * @param liabilityHolder the lender
 	 * @param interestRate the interest rate charged on the loan
-	 * @param maturity the maturity of the loan
+	 * @param loanAge the loanAge of the loan
 	 * @param amortization
+	 * @param length
 	 */
 	public Loan(double value, MacroAgent assetHolder,
 			MacroAgent liabilityHolder, double interestRate, int loanAge, int amortization, int length) {

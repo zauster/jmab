@@ -67,7 +67,7 @@ public class MicroRealDesiredInvestmentComputer extends AbstractMicroComputer im
 
 
 	/**
-	 * @param loansId the loansId to set
+	 * @param capGoodId the capGoodId to set
 	 */
 	public void setCapGoodId(int capGoodId) {
 		this.capGoodId = capGoodId;

@@ -32,7 +32,6 @@ public abstract class AbstractGoodMechanism extends AbstractMechanism implements
 	}
 
 	/**
-	 * @param scheduler
 	 * @param market
 	 */
 	public AbstractGoodMechanism(MarketSimulation market) {

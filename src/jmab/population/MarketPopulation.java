@@ -41,8 +41,9 @@ public class MarketPopulation{
 
 	
 	/**
-	 * @param agents
-	 * @param prng
+	 * @param buyers buyer agents
+	 * @param sellers seller agents
+	 * @param prng random engine
 	 */
 	
 	//constructor when arguments are collections of agents
@@ -52,8 +53,9 @@ public class MarketPopulation{
 	}
 
 	/**
-	 * @param agentList
-	 * @param prng
+	 * @param buyersList agentList
+	 * @param sellersList agentList
+	 * @param prng random engine
 	 */
 	//construsctor when arguments are already agentList.
 	public MarketPopulation(AgentList buyersList,AgentList sellersList, RandomEngine prng) {

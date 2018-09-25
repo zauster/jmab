@@ -84,7 +84,7 @@ public class BestQualityPriceCapitalSupplierWithSwitching extends AbstractStrate
 
 
 	/**
-	 * @param preferredSupplier the preferredSupplier to set
+	 * @param previousSupplier the previousSupplier to set
 	 */
 	public void setPreviousSupplier(AbstractFirm previousSupplier) {
 		this.previousSupplier = previousSupplier;

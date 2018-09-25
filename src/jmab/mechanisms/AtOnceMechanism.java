@@ -35,14 +35,15 @@ public class AtOnceMechanism extends AbstractGoodMechanism implements
 		Mechanism {
 
 	
-	
-	/**
-	 * @param scheduler
-	 * @param market
+	/*
+	 *
 	 */
-	
+
 	public AtOnceMechanism (){}
 	
+	/**
+	 * @param market
+	 */
 	public AtOnceMechanism(MarketSimulation market) {
 		super(market);
 	}

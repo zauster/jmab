@@ -135,7 +135,7 @@ public abstract class AbstractPopulationHandler implements PopulationHandler, Ev
 	abstract protected void handleAgent(Agent agent, int id, List<Agent> agents, int populationId);
 	
 	/**
-	 * @param tic
+	 * @param event tic
 	 */
 	protected abstract void onTicArrived(MacroTicEvent event);
 }

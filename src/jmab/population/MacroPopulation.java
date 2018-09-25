@@ -254,8 +254,8 @@ public class MacroPopulation extends Population implements EventListener{
 	/**
 	 * Populates a given population from the bytes, the structure should be as follows:
 	 * [nbAgents][agentIds]
-	 * @param content
-	 * @param pop
+	 * @param content the byte array
+	 * @param currentPop current population
 	 */
 	private void populatePopulationAgentIdsFromBytes(byte[] content, Population currentPop) {
 		ByteBuffer buf = ByteBuffer.wrap(content);
@@ -273,8 +273,8 @@ public class MacroPopulation extends Population implements EventListener{
 	 * for each agent
 	 * 	[sizeAgent][agentStructure]
 	 * end for
-	 * @param content
-	 * @param pop
+	 * @param content the byte array
+	 * @param currentPop pop
 	 */
 	private void populatePopulationFromBytes(byte[] content, Population currentPop) {
 		ByteBuffer buf = ByteBuffer.wrap(content);

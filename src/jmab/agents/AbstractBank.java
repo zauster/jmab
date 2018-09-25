@@ -136,7 +136,7 @@ public abstract class AbstractBank extends SimpleAbstractAgent implements Credit
 	/**
 	 * Populates the characteristics of the agent using the byte array content. The structure is the following
 	 * [superStructSize][superStruct][currentNonPerformingLoans][depositCounterPartId]
-	 * @param the byte array
+	 * @param content the byte array
 	 */
 	public void populateCharacteristics(byte[] content, MacroPopulation pop){
 		ByteBuffer buf = ByteBuffer.wrap(content);

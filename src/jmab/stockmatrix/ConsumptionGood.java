@@ -38,7 +38,7 @@ public class ConsumptionGood extends AbstractGood {
 	 * @param value 
 	 * @param quantity the quantity of Consumption Good
 	 * @param assetHolder the agent who has the Consumption Good
-	 * @param liabilityHolder will be empty since there is no liability side for a real good
+	 * @param producer producer. liabilityHolder will be empty since there is no liability side for a real good
 	 * @param price the price of the Consumption Good
 	 * @param consumptionGoodDuration the duration of the consumption good (0 if instantaneously consumed, not 0 if durable)
 	 */

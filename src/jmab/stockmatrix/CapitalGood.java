@@ -24,7 +24,7 @@ import jmab.population.MacroPopulation;
  *
  */
 
-/**
+/*
  * @param value the value of the capital good in the BS
  * @param assetHolder the agent who has the capital good
  * @param liabilityHolder null since there is no liability side for real good
@@ -79,6 +79,7 @@ public class CapitalGood extends AbstractGood{
 	 * [SuperStructure][capitalDuration][capitalAmortization][productivity][capitalLaborRatio]
 	 * @param content
 	 * @param population
+	 * @param aHolder
 	 */
 	public CapitalGood(byte[] content, MacroPopulation population, MacroAgent aHolder){
 		super(content, population, aHolder);

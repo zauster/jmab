@@ -90,9 +90,9 @@ public class DynamicSelectionRandomRobinBuyerMixer extends AbstractMarketMixer
 	}
 
 	/**
-	 * @param buyers
-	 * @param sellersList
-	 * @param simulation
+	 * @param buyers buyersList
+	 * @param sellers sellersList
+	 * @param model simulation
 	 */
 	private void invokeInteractions(AgentList buyers, AgentList sellers,
 			SimulationController model) {

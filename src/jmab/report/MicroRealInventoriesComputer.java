@@ -65,7 +65,7 @@ public class MicroRealInventoriesComputer extends AbstractMicroComputer implemen
 
 
 	/**
-	 * @param loansId the loansId to set
+	 * @param goodId the goodId to set
 	 */
 	public void setGoodId(int goodId) {
 		this.goodId = goodId;

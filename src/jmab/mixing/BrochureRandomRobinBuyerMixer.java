@@ -32,11 +32,12 @@ import cern.jet.random.engine.RandomEngine;
 public class BrochureRandomRobinBuyerMixer extends AbstractTwoStepMarketMixer implements TwoStepMarketMixer {
 
 	protected RandomEngine prng;
-	
+
+	public BrochureRandomRobinBuyerMixer(){}
+
 	/**
 	 * @param prng
 	 */
-	public BrochureRandomRobinBuyerMixer(){}
 	public BrochureRandomRobinBuyerMixer(RandomEngine prng) {
 		super();
 		this.prng = prng;

@@ -36,7 +36,6 @@ public abstract class AbstractMechanism implements Mechanism {
 	}
 
 	/**
-	 * @param scheduler
 	 * @param market
 	 */
 	public AbstractMechanism(MarketSimulation market) {

@@ -29,7 +29,8 @@ public interface SwitchingStrategy{
 	void setPrng(RandomEngine prng);
 
 	/**
-	 * @param params
+	 * @param previous
+	 * @param potential
 	 * @return
 	 */
 	boolean switches(double previous, double potential);

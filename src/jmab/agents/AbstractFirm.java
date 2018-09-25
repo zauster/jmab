@@ -293,7 +293,7 @@ public abstract class AbstractFirm extends SimpleAbstractAgent implements LaborD
 	 * for each client
 	 * 	[clientPopId][clientId]
 	 * end for
-	 * @param the byte array
+	 * @param content the byte array
 	 */
 	public void populateCharacteristics(byte[] content, MacroPopulation pop){
 		ByteBuffer buf = ByteBuffer.wrap(content);
