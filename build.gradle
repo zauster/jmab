@@ -1,0 +1,25 @@
+
+plugins {
+   id 'java-library'
+}
+
+repositories {
+    maven {
+       url = "http://jabm.sourceforge.net/mvn-repo/jabm"
+    }
+   mavenCentral()
+}
+
+dependencies {
+  compile 'net.sourceforge.jabm:jabm:0.9.9' //module: 'jabm'
+   // compile files('lib/net.sourceforge.jabm:0.9.9')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/"]
+        }
+    }
+}
+
